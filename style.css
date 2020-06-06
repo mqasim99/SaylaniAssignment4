@@ -1,0 +1,288 @@
+body{
+    overflow-x: hidden;
+    font-family: 'Roboto Slab', serif;
+    
+}
+
+header h1, header .navbar-brand{
+    font-family: 'Bebas Neue', Arial, Helvetica, sans-serif;
+}
+
+/* UTILITIES */
+
+/* background color */
+.bg-custom1{
+    background-color: #241623 !important;
+}
+.bg-custom2{
+    background-color: #f4fccc !important;
+}
+.bg-custom3{
+    background-color: #50868b !important;
+}
+.bg-custom4{
+    background-color: #C7EF00 !important;
+}
+.bg-custom5{
+    background-color: #D56F3E !important;
+}
+.bg-custom6{
+    background-color: #d3d0d3 !important;
+}
+
+/* text color */
+.text-custom1{
+    color: #241623 !important;
+}
+.text-custom2{
+    color: #f4fccc !important;
+}
+.text-custom3{
+    color: #50868b !important;
+}
+.text-custom4{
+    color: #C7EF00 !important;
+}
+.text-custom5{
+    color: #D56F3E !important;
+}
+.text-custom6{
+    color: #954e2b !important;
+}
+
+
+nav .dropdown-menu a:hover{
+    background-color: #241623;
+    color: #C7EF00 !important;
+}
+
+nav{
+    border-bottom: 2px solid #50868b;
+}
+
+nav a{
+    color: #ffffff !important;
+}
+
+header .navbar-brand{
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+#main{
+    background-image: url(./Carousel/4.png);
+    background-position: center;
+    background-repeat: no-repeat;    
+    height: 100vh;
+    width: 100vw;
+}
+
+@media only screen and (max-width: 1024px){
+    #main{
+        background-image: url(./Carousel/4.png);
+        background-position: center;
+        background-repeat: no-repeat;  
+        background-size: cover;  
+        height: 45vh;
+        width: 100vw;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    #main{
+        background-image: url(./Carousel/4.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;    
+        height: 55vh;
+        width: 100vw;
+    }
+}
+@media only screen and (max-width: 411px){
+    #main{
+        background-image: url(./Carousel/4.png);
+        background-position: center;
+        background-repeat: no-repeat;  
+        background-size: cover;  
+        height: 45vh;
+        width: 100vw;
+    }
+}
+
+.main-content{
+    padding-top: 180px;
+    height: 100%;
+    width: 100%;
+}
+
+@media only screen and (max-width: 411px) {
+    .main-content{
+        padding-top: 70px;
+    }
+}
+
+.main-content h1{
+    font-size: 100px;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+    border-bottom: 5px solid #D56F3E;
+    width: 75%;
+    margin: auto;
+}
+
+@media only screen and (max-width:768px) {
+    .main-content h1{
+        font-size: 80px;
+        letter-spacing: 2px;
+        margin-bottom: 15px;
+        border-bottom: 5px solid #D56F3E;
+        width: 75%;
+        margin: auto;
+    }
+    .main-content p{
+        padding-top: 5px;
+    }
+}
+@media only screen and (max-width:411px) {
+    .main-content h1{
+        font-size: 50px;
+        letter-spacing: 2px;
+        margin-bottom: 15px;
+        border-bottom: 5px solid #D56F3E;
+        width: 85%;
+        margin: auto;
+    }
+    .main-content p{
+        padding-top: 5px;
+        font-size: 15px !important;
+    }
+}
+@media only screen and (max-width:360px) {
+    .main-content h1{
+        font-size: 45px;
+        letter-spacing: 2px;
+        margin-bottom: 15px;
+        border-bottom: 5px solid #D56F3E;
+        width: 90%;
+        margin: -10px auto;
+    }
+    .main-content p{
+        padding: 15px 5px 5px 5px;
+        font-size: 12px !important;
+    }
+}
+
+.main-content p{
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 350;
+    text-shadow: 1px 1px #000 ;
+}
+
+.btn1, .btn2{
+    border: 2px solid #C7EF00 !important;
+    color: #C7EF00;
+}
+
+.btn1:hover , .btn2:hover{
+    background-color: #241623 !important;
+    color: #C7EF00;
+}
+
+nav li a:hover{
+    background-color: #C7EF00;
+    color: #241623 !important;
+}
+
+.active{
+    background-color: #C7EF00;
+}
+
+h2{
+    width: 40%;
+    margin: 20px auto;
+    border-bottom: 3px solid #C7EF00;
+}
+
+@media only screen and (max-width:411px) {
+    h2{
+        width: 70%;
+        margin: 20px auto;
+        border-bottom: 3px solid #C7EF00;
+    }
+}
+
+.brdr{
+    border-left: 15px solid #fff;
+    border-right: 15px solid #fff;
+    border-bottom: 10px solid #fff;
+    padding: 40px !important;
+}
+
+#wc-us, #c-pro{
+    margin-bottom: 30px;
+}
+
+#footer{
+    height: 30vh;
+}
+
+/* About */
+
+#about-main{
+    background-image: url(./background/background-brick-brickwork-cement-268966.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (max-width: 411px) {
+    h1{
+        font-size: 26px;
+    }
+}
+
+#Team{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* Pricing */
+
+.card-deck .card-img-top{
+    height: 35% !important;
+    width: 100% !important;
+}
+@media only screen and (max-width: 768px){
+    .card-deck .card-img-top{
+        height: 25% !important;
+        width: 100% !important;
+    }
+    .card-body{
+        font-size: 14px;
+    }
+}
+#p-heading{
+    margin: 0 auto;
+    border-bottom: 2px solid #C7EF00;
+    width: 60%;
+}
+
+@media only screen and (max-width: 411px){
+    #p-heading{
+        font-size: 20px;
+        margin: 0 auto;
+        border-bottom: 2px solid #C7EF00;
+        width: 90%;
+    }
+}
+
+/* Contact */
+
+label{
+    display: flex;
+}
+
+input, textarea{
+    width: 70%;
+}
